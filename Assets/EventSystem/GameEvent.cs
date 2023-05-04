@@ -14,7 +14,7 @@ public class GameEvent : ScriptableObject
         for (int i = 0; i < eventListeners.Count; i++)
         {
             IGameEventListener listener = eventListeners[i];
-            listener.NotifyWCustomowymInterfejsiePoPolksu\();
+            listener.NotifyWCustomowymInterfejsiePoPolksu();
         }
     }
 

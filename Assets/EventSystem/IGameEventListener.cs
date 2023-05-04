@@ -4,5 +4,5 @@ using UnityEngine;
 
 public interface IGameEventListener 
 {
-    void NotifyWCustomowymInterfejsiePoPolksu\();
+    void NotifyWCustomowymInterfejsiePoPolksu();
 }
