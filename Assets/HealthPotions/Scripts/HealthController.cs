@@ -4,14 +4,9 @@ using UnityEngine;
 
 public class HealthController : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+
+    public void HealthPickedUp()
     {
-        HealthPotionContainer interactedPotion = other.GetComponent<HealthPotionContainer>();
-
-
-        if(interactedPotion != null)
-        {
-            Debug.Log(interactedPotion.HealthPotion.healthToHeal);
-        }
+        Debug.Log("I picked health potion, play sound");
     }
 }
