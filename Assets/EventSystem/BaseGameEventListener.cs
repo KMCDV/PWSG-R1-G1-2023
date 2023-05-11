@@ -14,7 +14,8 @@ public class BaseGameEventListener : MonoBehaviour, IGameEventListener
     }
 
     public void NotifyWCustomowymInterfejsiePoPolksu()
-    {       
+    {
+        response?.Invoke();
     }
 
     private void OnDisable()
